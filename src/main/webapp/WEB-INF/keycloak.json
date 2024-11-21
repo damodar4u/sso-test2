@@ -1,0 +1,10 @@
+{
+  "realm": "entra-id",
+  "auth-server-url": "https://login.microsoftonline.com/{tenant_id}",
+  "ssl-required": "external",
+  "resource": "your-client-id",
+  "credentials": {
+    "secret": "your-client-secret"
+  },
+  "principal-attribute": "preferred_username"
+}
